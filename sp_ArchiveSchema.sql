@@ -26,9 +26,7 @@ GO
   	---------------------------
   		DEFAULT ARCHIVING : EXEC dbo.sp_ArchiveSchema 'invoices'
   		DISABLED DATA ARCHIVING : EXEC dbo.sp_ArchiveSchema 'invoices', 0
-  Run as EXEC dbo.sp_ArchiveSchema 'YOUR_SCHEMA_NAME'
-
-  	Optional Parameter
+		
 --  .▄▄ ·          ▄▄▌   ▄▄▄·
 --  ▐█ ▀. ▪        ██•  ▐█ ▀█
 --  ▄▀▀▀█▄ ▄█▀▄    ██▪  ▄█▀▀█
